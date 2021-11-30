@@ -4,7 +4,7 @@
 
 conifer is a basic app that creates an executable jar file from a file with a .java extension.
 ### images
-    ![conifer ver 0.35 GUI](history/conifer_ver035.png)
+    ![conifer ver 0.35 GUI](/history/conifer_ver035.png)
 
 ## usage
 
