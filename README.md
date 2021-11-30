@@ -1,8 +1,10 @@
-# conifer jar version 0.35 (in development)
+# conifer jar version 0.36 (in development)
 
 ## about
 
 conifer is a basic app that creates an executable jar file from a file with a .java extension.
+### images
+    ![conifer ver 0.35 GUI](history/conifer_ver035.png)
 
 ## usage
 
