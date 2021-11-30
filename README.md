@@ -1,20 +1,20 @@
 # conifer jar version 0.36 (in development)
 
-## about
+## About
 
 conifer is a basic app that creates an executable jar file from a file with a .java extension.
-### images
+### Images
 ![conifer ver 0.35 GUI](history/conifer_ver035.png)
 
-## usage
+## Usage
 
-## author 
+## Author 
 
 Jayson C. Garrison @ The University of Tulsa. Efforts in AI/ML, affiliated with TU MASTERS and their research efforts, and pursuing two B.S. degrees in Mathematics and Computer Science.
 
-## etc
+## Etc
 
-### what I have learned
+### What I have learned
 
 I decided that it was time to start developing basic apps and side projects. I needed to make a .jar file and decided that I could write a process to do this instead of manually running commands each time. IDEs like Eclipse and Intellij already have this built in feature but others do not. I prefer to do these processes manually as there is always something to learn when one does it this way.
 
