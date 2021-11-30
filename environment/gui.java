@@ -16,6 +16,8 @@ public class gui extends Application {
     public gui() {
         // version is 0.0
         ver = new version();
+        // update the version
+        ver.setVersion(0.3);
         //invoke("");
     }
 
