@@ -17,7 +17,7 @@ public class gui extends Application {
         // version is 0.0
         ver = new version();
         // update the version
-        ver.setVersion(0.3);
+        ver.setVersion(0.35);
         //invoke("");
     }
 

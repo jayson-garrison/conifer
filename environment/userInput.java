@@ -8,12 +8,15 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 
 public class userInput {
 
     private FileChooser option;
     private File selectedFile;
+    private File selectedDirectory;
+    private DirectoryChooser dirOption;
 
     @FXML
     private Button create;
@@ -32,13 +35,13 @@ public class userInput {
 
     @FXML
     void browseFilesRoot(ActionEvent event) {
-        option = new FileChooser();
-        selectedFile = option.showOpenDialog(null);
+        dirOption = new DirectoryChooser();
+        selectedDirectory = dirOption.showDialog(null);
 
-        if (selectedFile != null) {
-            listViewProject.getItems().add(selectedFile.getAbsolutePath());
+        if (selectedDirectory != null) {
+            listViewProject.getItems().add(selectedDirectory.getAbsolutePath());
         } else {
-            System.out.println("File is not valid: user error");
+            System.out.println("Directory is not valid: user error");
         }
     }
 
