@@ -26,8 +26,10 @@ public class gui extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("window.fxml"));
         primaryStage.setTitle("conifer version " + ver.getVersion());
-        primaryStage.setScene(new Scene(root, 650, 500));
+        Scene interf = new Scene(root, 650, 700);
+        primaryStage.setScene(interf);
         primaryStage.show();
+        primaryStage.setResizable(false);
     }
 
     public static void main(String[] args) { 
