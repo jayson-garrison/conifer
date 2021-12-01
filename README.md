@@ -1,4 +1,4 @@
-# conifer jar version 0.36 (in development)
+# conifer jar version 0.40 (in development)
 
 ## about
 

@@ -1,3 +1,10 @@
+/**
+ * Author: Jayson C. Garrison
+ * Inception: 11/29/21
+ * Description: driver for the conifer application
+ * Project: conifer
+ */
+
 package driver;
 
 import environment.*;
@@ -9,5 +16,5 @@ public class conifer {
         // create the ui
         gui env = new gui();
         env.main(args);
-    }
-}
+    } //end main 
+} // end conifer

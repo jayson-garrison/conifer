@@ -1,3 +1,11 @@
+/**
+ * Author: Jayson C. Garrison
+ * Inception: 11/30/21
+ * Description: 'Controller' for window.fxml features.
+ *              Reads an manages data from the user.
+ * Project: conifer
+ */
+
 package environment;
 
 import java.io.File;
@@ -42,8 +50,8 @@ public class userInput {
             listViewProject.getItems().add(selectedDirectory.getAbsolutePath());
         } else {
             System.out.println("Directory is not valid: user error");
-        }
-    }
+        } // end if else
+    } // end browseFilesRoot
 
     @FXML
     void browseFiles(ActionEvent event) {
@@ -54,8 +62,8 @@ public class userInput {
             listView.getItems().add(selectedFile.getAbsolutePath());
         } else {
             System.out.println("File is not valid: user error");
-        }
-    }
+        } // end if else
+    } // end browseFiles
 
     @FXML
     void execute(ActionEvent event) {
@@ -65,9 +73,9 @@ public class userInput {
         System.out.println(fName);
         System.out.println(path);
         // call createJar
-        createJar proc = new createJar(fName, selectedFile);
+        createJar proc = new createJar(fName, selectedFile, selectedDirectory);
         proc.execute();
-    }
+    } // end execute
 
-}
+} // end userInput
 

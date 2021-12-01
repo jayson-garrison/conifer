@@ -1,3 +1,9 @@
+/**
+ * Author: Jayson C. Garrison
+ * Inception: 11/29/21
+ * Description: version object for conifer.
+ * Project: conifer
+ */
 package info;
 
 public class version {
